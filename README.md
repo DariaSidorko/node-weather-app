@@ -6,7 +6,6 @@ https://wether-application-nodejs.herokuapp.com/
 
 API's used:  
 https://www.mapbox.com/
-
 https://weatherstack.com/
 
 NPM's: 
