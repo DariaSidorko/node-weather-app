@@ -6,6 +6,7 @@
   <title>Weather</title>
   <link rel="icon" href="/img/weather.png">
   <link rel="stylesheet" href="./css/styles.css">  
+  <script src="https://kit.fontawesome.com/ed28ad789c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,9 +21,11 @@
     <p id="message-1"></p>
     <span id="weather_icon"></span>
     <span class="temp" id='temp'></span>
-    <p id="humidity"></p>
-    <p id="wind_speed"></p>
-    <p id="precip"></p>
+    <div>
+      <i class="fas fa-tint sub-icon"><span class="weather-disc" id="humidity"></span></i>
+      <i class="fas fa-wind sub-icon"><span class="weather-disc" id="wind_speed"></span></i>
+      <i class="fas fa-umbrella sub-icon"><span class="weather-disc" id="precip"></span></i>
+    </div>
   </div>
   {{>footer}}
 
