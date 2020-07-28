@@ -18,9 +18,11 @@ function fercher(location) {
 fetch('/weather?address=' + location).then((response) => {
   response.json().then((data) => {
     if (data.error) {
-      messageOne.textContent = data.error
+      messageOne.textContent = data.error;
+      document.getElementById("message-1").style.color = "red";
     } else {
-      messageOne.textContent = data.location;    
+      messageOne.textContent = data.location; 
+      document.getElementById("message-1").style.color = "#808080";   
       icon.src = data.forecast.weather_icon;
       document.getElementById("weather_icon").appendChild(icon);
       temp.textContent = data.forecast.temp;

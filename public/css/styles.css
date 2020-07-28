@@ -44,7 +44,7 @@ header a {
 
 .header-img {
   width: 355px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   height: 100px;
   object-fit: cover;
 }
@@ -68,6 +68,22 @@ button {
   outline: none;
 }
 
+.location-container {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.sub-icon-location {
+  font-size: 26px;
+  color: #808080;
+}
+
+.location-disc {
+  font-family: arial;
+  font-size: 18px;
+  padding-left: 12px;
+}
+
 .icon {
   height: 70px;
 }
@@ -88,7 +104,6 @@ button {
   padding-left: 6px;
   font-family: arial;
   font-size: 18px;
-  font-weight: 0.6;
   color: #888888;
 }
 
