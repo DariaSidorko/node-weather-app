@@ -6,6 +6,6 @@ https://www.mapbox.com/
 https://weatherstack.com/
 
 NPM's:
-express
-hbs
-postman-request
+express;
+hbs;
+postman-request;
