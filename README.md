@@ -1,4 +1,7 @@
 # node-weather-app
+
+Heroku published application:
+
 https://wether-application-nodejs.herokuapp.com/
 
 
